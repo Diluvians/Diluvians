@@ -175,12 +175,11 @@ footer p {
     }
 
     .menu {
-        flex-wrap: wrap; /* Permite que os botões quebrem linha */
-        justify-content: center; /* Centraliza o menu */
-        gap: 10px; /* Espaçamento entre os botões */
+        justify-content: flex-start;
         padding: 10px;
-        width: 95%; /* Faz o menu ocupar 95% da largura da tela */
-        margin: 0 auto; /* Centraliza o menu */
+        width: 95%;
+        margin: 0 auto;
+        overflow: auto;
     }
 
     .menu a {
@@ -211,7 +210,11 @@ footer p {
 
     /* Menu */
     .menu {
-        gap: 5px; /* Reduz o espaçamento entre os botões */
+        justify-content: flex-start;
+        padding: 10px;
+        width: 95%;
+        margin: 0 auto;
+        overflow: auto;
     }
 
     .menu a {
